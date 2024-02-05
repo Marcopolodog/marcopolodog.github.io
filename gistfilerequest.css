@@ -103,18 +103,6 @@
     left: 488px;
 }
 
-.xbox .button {
-    position: absolute;
-    background: url(https://imgur.com/fKTrqKB.png);
-    width: 48px;
-    height: 48px;
-}
-
-.xbox .button.pressed {
-    background-position-y: -48px;
-    margin-top: 5px;
-    opacity: 1;
-}
 
 .xbox .a {
     background-position: 0 0;
