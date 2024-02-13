@@ -81,7 +81,7 @@
 
 .ds4 .touchpad.pressed {
     background: url(https://imgur.com/VhEGgW0.png) no-repeat center;
-    opacity: 0;
+    opacity: 1;
 }
 
 .ds4 .meta {
