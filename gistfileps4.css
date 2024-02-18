@@ -92,27 +92,7 @@
     background: url(ps4-assets/meta.svg) no-repeat center;
 }
 
-/*Not needed, but I like keeping them here for posterity*/
-/*.ds4 .quadrant{
-position: absolute;
-background: url(ps4-assets/player-n.svg);
-height: 17px;
-width: 111px;
-top: 140px;
-left: 240px;
-}
-.ds4 .p0{
-background-position: 0 -6px;
-}
-.ds4 .p1{
-background-position: 0 -28px;
-}
-.ds4 .p2{
-background-position: 0 -49px;
-}
-.ds4 .p3{
-background-position: 0 -70px;
-}*/
+
 .ds4 .arrows {
     position: absolute;
     width: 352px;
@@ -229,7 +209,7 @@ background-position: 0 -70px;
 }
 
 .ds4 .face {
-    background: url(ps4-assets/);
+    background: url(https://imgur.com/W0lQcnq.png);
     position: absolute;
 }
 
@@ -278,3 +258,5 @@ background-position: 0 -70px;
 
 /*END PS4 Controller Styling*/
 
+
+This css is allowed to be coppied - permission by owner
