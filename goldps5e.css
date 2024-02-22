@@ -203,12 +203,12 @@ background-position: 0 -70px;
 .ds4 .stick {
     position: absolute;
     background: url(https://imgur.com/sG8GhGH.png);
-    height: 94px;
-    width: 94px;
+    height: 120px;
+    width: 121px;
 }
 
 .ds4 .stick.pressed.left {
-    background-position-x: -96px;
+    background-position-x: -412px;
 }
 
 .ds4 .stick.pressed.right {
