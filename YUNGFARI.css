@@ -8,7 +8,7 @@
 }
 
 .ds4.disconnected {
-    background: url(Disconnected.png);
+    background: url(https://imgur.com/waLKKha.png);
 }
 
 .ds4.disconnected div {
@@ -26,7 +26,7 @@
 .ds4 .trigger {
     width: 99px;
     height: 100%;
-    background: url(Trigger_Pressed.png);
+    background: url(https://imgur.com/4KNI5Sf.png);
     opacity: 0;
 }
 
@@ -42,7 +42,7 @@
 .ds4 .bumper {
     width: 200px;
     height: 45px;
-    background: url(Bumper.png) no-repeat;
+    background: url(https://imgur.com/JmIe71B.png) no-repeat;
     opacity: 0;
 }
 
@@ -78,7 +78,7 @@
 }
 
 .ds4 .touchpad.pressed {
-    background: url(Touchpad.png) no-repeat center;
+    background: url(https://imgur.com/RJilAty.png) no-repeat center;
     opacity: 1;
 }
 
@@ -91,7 +91,7 @@
 }
 
 .ds4 .meta.pressed {
-    background: url(Home.png) no-repeat center;
+    background: url(https://imgur.com/katK2SB.png) no-repeat center;
 }
 
 .ds4 .p0{
@@ -161,7 +161,7 @@ background-position: 0 -70px;
     position: absolute;
     width: 55px;
     height: 55px;
-    background: url(FaceButtons.png);
+    background: url(https://imgur.com/nCc3Wru.png);
 }
 
 .ds4 .button.pressed {
@@ -202,7 +202,7 @@ background-position: 0 -70px;
 
 .ds4 .stick {
     position: absolute;
-    background: url(https://imgur.com/HdWa3NS.png);
+    background: url(https://imgur.com/ps25v0A.png);
     height: 94px;
     width: 94px;
 }
@@ -234,7 +234,7 @@ background-position: 0 -70px;
 }
 
 .ds4 .face {
-    background: url(Dpad.png);
+    background: url(https://imgur.com/9edSGym.png);
     position: absolute;
 }
 
@@ -289,4 +289,11 @@ background-position: 0 -70px;
     height: 43px;
 }
 
-/*END PS4 White Controller Styling*/
+ NOone is permitted to copy, reproduce, distribute, or utilize the codes or images contained within this work without prior written permission from the designated copyright holders.
+
+
+The copyright holders of the codes and images are as follows:
+
+
+Owner: MarcoPolo
+Current Permission Holder: YUNG FARI (HUNTERS.D)
