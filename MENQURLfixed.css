@@ -157,7 +157,7 @@ background-position: 0 -70px;
     left: 762px;
 }
 
-.ds4 .button { face }
+.ds4 .button { face
     position: absolute;
     width: 55px;
     height: 55px;
@@ -234,7 +234,7 @@ background-position: 0 -70px;
 }
 
 .ds4 .face {
-    background: url(Dpad.png);
+    background: url(https://imgur.com/NzBVLqf.png);
     position: absolute;
 }
 
