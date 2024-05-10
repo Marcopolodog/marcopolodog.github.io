@@ -1,0 +1,250 @@
+
+/* BEGIN PS5 Controller Styling */
+.controller.ps5 {
+    background: url(https://imgur.com/mps6r8t.png) no-repeat;
+    height: 500px; /* Adjust height as needed */
+    width: 800px; /* Adjust width as needed */
+    position: relative;
+}
+
+.ps5.disconnected {
+    background: url(https://imgur.com/e5aYReS.png) no-repeat;
+}
+
+.ps5.disconnected div {
+    display: none;
+}
+
+.ps5 .triggers {
+    width: 200px; /* Adjust width as needed */
+    height: 50px; /* Adjust height as needed */
+    position: absolute;
+    left: 300px; /* Adjust position as needed */
+    top: 200px; /* Adjust position as needed */
+}
+
+.ps5 .trigger {
+    width: 33px; /* Adjust width as needed */
+    height: 100%;
+    background: url(https://imgur.com/pW1uau6.png) no-repeat;
+    opacity: 0;
+}
+
+.ps5 .trigger.left {
+    float: left;
+}
+
+.ps5 .trigger.right {
+    float: right;
+    background-position-x: 33px; /* Adjust position as needed */
+}
+
+.ps5 .bumper {
+    width: 66px; /* Adjust width as needed */
+    height: 15px; /* Adjust height as needed */
+    background: url(https://imgur.com/nPgQPDY.png) no-repeat;
+    opacity: 0;
+}
+
+.ps5 .bumpers {
+    position: absolute;
+    width: 222px; /* Adjust width as needed */
+    height: 15px; /* Adjust height as needed */
+    left: 133px; /* Adjust position as needed */
+    top: 264px; /* Adjust position as needed */
+}
+
+.ps5 .bumper.pressed {
+    opacity: 1;
+}
+
+.ps5 .bumper.left {
+    float: left;
+}
+
+.ps5 .bumper.right {
+    float: right;
+    transform: rotateY(180deg);
+}
+
+.ps5 .touchpad {
+    width: 117px; /* Adjust width as needed */
+    height: 100px; /* Adjust height as needed */
+    position: absolute;
+    left: 140px; /* Adjust position as needed */
+    top: 35px; /* Adjust position as needed */
+}
+
+.ps5 .touchpad.pressed {
+    background: url(https://imgur.com/13rgMkJ.png) no-repeat center;
+    opacity: 1;
+}
+
+.ps5 .meta {
+    width: 34px; /* Adjust width as needed */
+    height: 34px; /* Adjust height as needed */
+    position: absolute;
+    left: 182px; /* Adjust position as needed */
+    bottom: 87px; /* Adjust position as needed */
+}
+
+.ps5 .meta.pressed {
+    background: url(PS5_Home.png) no-repeat center;
+}
+
+.ps5 .arrows {
+    position: absolute;
+    width: 117px; /* Adjust width as needed */
+    height: 15px; /* Adjust height as needed */
+    top: 35px; /* Adjust position as needed */
+    left: 75px; /* Adjust position as needed */
+}
+
+.ps5 .back,
+.ps5 .start {
+    background: url(https://imgur.com/PUkM2YS.png) no-repeat;
+    width: 8px; /* Adjust width as needed */
+    height: 13px; /* Adjust height as needed */
+    opacity: 0;
+}
+
+.ps5 .start {
+    position: absolute;
+    left: 182px; /* Adjust position as needed */
+    bottom: -7px; /* Adjust position as needed */
+}
+
+.ps5 .back {
+    position: absolute;
+    left: 61px; /* Adjust position as needed */
+    bottom: -7px; /* Adjust position as needed */
+}
+
+.ps5 .back.pressed,
+.ps5 .start.pressed {
+    opacity: 1;
+}
+
+.ps5 .back {
+    float: left;
+}
+
+.ps5 .start {
+    float: right;
+    background-position: 0px 0;
+}
+
+.ps5 .abxy {
+    position: absolute;
+    width: 64px; /* Adjust width as needed */
+    height: 64px; /* Adjust height as needed */
+    top: 75px; /* Adjust position as needed */
+    left: 285px; /* Adjust position as needed */
+}
+
+.ps5 .button {
+    position: absolute;
+    width: 21px; /* Adjust width as needed */
+    height: 21px; /* Adjust height as needed */
+    background: url(https://imgur.com/BFSxaGx.png) no-repeat;
+}
+
+.ps5 .button.pressed {
+    background-position-y: 21px;
+}
+
+.ps5 .a {
+    background-position: 0 0;
+    bottom: 0px;
+    left: 15px;
+}
+
+.ps5 .b {
+    background-position: -21px 0;
+    top: 21px;
+    right: -1px;
+}
+
+.ps5 .x {
+    background-position: -42px 0;
+    top: 21px;
+}
+
+.ps5 .y {
+    background-position: 21px 0;
+    left: 15px;
+    bottom: 42px;
+}
+
+.ps5 .sticks {
+    position: absolute;
+    width: 117px; /* Adjust width as needed */
+    height: 34px; /* Adjust height as needed */
+    top: 87px; /* Adjust position as needed */
+    left: 140px; /* Adjust position as needed */
+}
+
+.ps5 .stick {
+    position: absolute;
+    background: url(https://imgur.com/VXSxJe8.png) no-repeat;
+    height: 32px; /* Adjust height as needed */
+    width: 32px; /* Adjust width as needed */
+}
+
+.ps5 .stick.pressed.left {
+    background-position-x: -32px;
+}
+
+.ps5 .stick.pressed.right {
+    background-position-x: -64px;
+}
+
+.ps5 .stick.left {
+    top: 0;
+    left: 0;
+}
+
+.ps5 .stick.right {
+    top: 100%;
+    left: 100%;
+}
+
+.ps5 .dpad {
+    position: absolute;
+    width: 39px; /* Adjust width as needed */
+    height: 39px; /* Adjust height as needed */
+    top: 55px; /* Adjust position as needed */
+    left: 98px; /* Adjust position as needed */
+}
+
+.ps5 .face {
+    background: url(https://imgur.com/neG6Hgj.png) no-repeat;
+    position: absolute;
+}
+
+.ps5 .face.up,
+.ps5 .face.down {
+    width: 13px; /* Adjust width as needed */
+    height: 19px; /* Adjust height as needed */
+}
+
+.ps5 .face.left,
+.ps5 .face.right {
+    width: 19px; /* Adjust width as needed */
+    height: 13px; /* Adjust height as needed */
+}
+
+.ps5 .face.up {
+    left: 16px; /* Adjust position as needed */
+    top: 0;
+    background-position: -13px 0px;
+}
+
+.ps5 .face.down {
+    left: 16px; /* Adjust position as needed */
+    bottom: 0;
+    background-position: 0px 0;
+}
+
+.ps5 .face.left {
+   
