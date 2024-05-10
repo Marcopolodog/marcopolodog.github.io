@@ -5,6 +5,8 @@
     height: 500px; /* Adjust height as needed */
     width: 800px; /* Adjust width as needed */
     position: relative;
+        /*    margin-left: -403px;
+        margin-top: -280px;*/
 }
 
 .ps5.disconnected {
