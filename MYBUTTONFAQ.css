@@ -1,36 +1,17 @@
- bold  italic
-Size
-Vertical Size: 
-10px
-Horizontal Size: 
-24px
-Border
-Border Radius: 
-12px
-Border Size: 
-2px
- Box Shadow   /   inset
-Vertical Position: 
-1px
-Horizontal Position: 
-0px
-Blur Radius: 
-8px
-Spread Radius: 
-0px
- Text Shadow
-Vertical Position: 
-2px
-Horizontal Position: 
-3px
-Blur Radius: 
-0px
- prefix<a href="#" class="MYBUTTONFAQ">FAQ</a>
-
 .MYBUTTONFAQ {
+	-moz-box-shadow:inset 0px 1px 8px 0px #fff6af;
+	-webkit-box-shadow:inset 0px 1px 8px 0px #fff6af;
 	box-shadow:inset 0px 1px 8px 0px #fff6af;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23));
+	background:-moz-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-webkit-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-o-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-ms-linear-gradient(top, #ffec64 5%, #ffab23 100%);
 	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23',GradientType=0);
 	background-color:#ffec64;
+	-webkit-border-radius:12px;
+	-moz-border-radius:12px;
 	border-radius:12px;
 	border:2px solid #ffaa22;
 	display:inline-block;
@@ -44,12 +25,16 @@ Blur Radius:
 	text-shadow:3px 2px 0px #ffee66;
 }
 .MYBUTTONFAQ:hover {
-	background:linear-gradient(to bottom, #fc9e05 5%, #fae12d 100%);
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64));
+	background:-moz-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-webkit-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-o-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-ms-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64',GradientType=0);
 	background-color:#ffab23;
 }
 .MYBUTTONFAQ:active {
 	position:relative;
 	top:1px;
 }
-
-        
