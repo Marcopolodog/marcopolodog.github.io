@@ -1,9 +1,12 @@
 /* Base container for the controller */
 .controller {
-  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 1200px;
   height: 800px;
-  background-image: url('https://imgur.com/2FKwFyY.png'); /* Replace with your image path */
+  background-image: url('https://imgur.com/jwU1Gg2.png'); /* Replace with your image path */
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -12,10 +15,10 @@
 /* D-pad styling */
 .dpad {
   position: absolute;
-  width: 140px; /* Adjust the size as needed */
-  height: 140px; /* Adjust the size as needed */
-  top: 300px; /* Adjust the position as needed */
-  left: 200px; /* Adjust the position as needed */
+  width: 120px; /* Adjust the size as needed */
+  height: 120px; /* Adjust the size as needed */
+  top: 270px; /* Adjust the position as needed */
+  left: 190px; /* Adjust the position as needed */
   background: url('https://imgur.com/CsUFgUc.png'); /* Replace with your image path */
   background-size: contain;
   background-position: center;
@@ -25,10 +28,10 @@
 /* Face buttons styling */
 .face-buttons {
   position: absolute;
-  width: 140px; /* Adjust the size as needed */
-  height: 140px; /* Adjust the size as needed */
-  top: 300px; /* Adjust the position as needed */
-  right: 200px; /* Adjust the position as needed */
+  width: 120px; /* Adjust the size as needed */
+  height: 120px; /* Adjust the size as needed */
+  top: 270px; /* Adjust the position as needed */
+  right: 190px; /* Adjust the position as needed */
   background: url('https://imgur.com/1anQdws.png'); /* Replace with your image path */
   background-size: contain;
   background-position: center;
